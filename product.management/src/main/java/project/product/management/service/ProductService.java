@@ -8,7 +8,7 @@ public interface ProductService {
 	
 	String addProduct(Product prod);
 	String updateProduct(Product prod);
-	String deleteProduct(Product prodId);
+	String deleteProduct(Long prodId);
 	Product viewProduct(Long prodId);
 	List<Product> viewAllProduct();
 }
