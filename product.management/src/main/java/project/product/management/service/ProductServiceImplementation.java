@@ -43,7 +43,7 @@ public class ProductServiceImplementation implements ProductService{
 	}
 
 	@Override
-	public List<Product> viewAllProduct() {
+	public List<Product> viewAllProducts() {
 		
 		return repo.findAll();
 	}

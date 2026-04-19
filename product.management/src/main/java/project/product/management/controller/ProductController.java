@@ -44,10 +44,10 @@ public class ProductController {
 		return service.viewProduct(prodId);
 	}
 
-	@GetMapping("/viewAllProduct")
-	public List<Product> viewAllProduct() {
+	@GetMapping("/viewAllProducts")
+	public List<Product> viewAllProducts() {
 		
-		return service.viewAllProduct();
+		return service.viewAllProducts();
 	}
 	
 }
